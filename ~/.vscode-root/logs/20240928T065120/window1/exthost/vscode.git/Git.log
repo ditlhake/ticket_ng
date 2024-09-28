@@ -1,0 +1,144 @@
+2024-09-28 06:51:22.356 [info] [main] Log level: Info
+2024-09-28 06:51:22.356 [info] [main] Validating found git in: "git"
+2024-09-28 06:51:22.356 [info] [main] Using git "2.40.1" from "git"
+2024-09-28 06:51:22.356 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-28 06:51:22.356 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-28 06:51:22.356 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-28 06:51:22.356 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-28 06:51:22.356 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-28 06:51:22.356 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-28 06:51:22.356 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-28 06:51:22.361 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-28 06:51:22.361 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-28 06:51:22.381 [info] > git rev-parse --show-toplevel [16ms]
+2024-09-28 06:51:22.381 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-28 06:51:22.382 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-28 06:51:22.552 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-28 06:51:22.552 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-28 06:51:23.634 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-28 06:51:23.634 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-28 06:51:24.183 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-28 06:51:24.183 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-28 06:51:31.739 [info] > git init -b main [15ms]
+2024-09-28 06:51:31.754 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-28 06:51:31.770 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-09-28 06:51:31.796 [info] [Model][openRepository] Opened repository: /mnt/ditlhake/ticket++_ng
+2024-09-28 06:51:31.804 [info] > git config --get commit.template [2ms]
+2024-09-28 06:51:31.809 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:51:31.809 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-28 06:51:31.809 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:31.820 [info] > git status -z -uall [7ms]
+2024-09-28 06:51:31.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2024-09-28 06:51:31.874 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:31.876 [info] > git config --get commit.template [4ms]
+2024-09-28 06:51:31.879 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:51:31.880 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-28 06:51:31.880 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:32.128 [info] > git status -z -uall [244ms]
+2024-09-28 06:51:32.215 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [75ms]
+2024-09-28 06:51:32.215 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:32.963 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-28 06:51:34.363 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:51:34.364 [info] > git config --get commit.template [6ms]
+2024-09-28 06:51:34.364 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-28 06:51:34.364 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:34.376 [info] > git status -z -uall [8ms]
+2024-09-28 06:51:34.410 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-09-28 06:51:34.411 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:39.424 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:51:39.425 [info] > git config --get commit.template [6ms]
+2024-09-28 06:51:39.425 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-28 06:51:39.426 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:39.439 [info] > git status -z -uall [9ms]
+2024-09-28 06:51:39.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-09-28 06:51:39.469 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:44.486 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:51:44.487 [info] > git config --get commit.template [7ms]
+2024-09-28 06:51:44.488 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-28 06:51:44.488 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:44.502 [info] > git status -z -uall [9ms]
+2024-09-28 06:51:44.534 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2024-09-28 06:51:44.534 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:49.550 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:51:49.551 [info] > git config --get commit.template [7ms]
+2024-09-28 06:51:49.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-09-28 06:51:49.561 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:49.576 [info] > git status -z -uall [9ms]
+2024-09-28 06:51:49.609 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-09-28 06:51:49.609 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:54.617 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:51:54.623 [info] > git config --get commit.template [7ms]
+2024-09-28 06:51:54.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-28 06:51:54.623 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:54.636 [info] > git status -z -uall [8ms]
+2024-09-28 06:51:54.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-09-28 06:51:54.664 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:59.677 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:51:59.683 [info] > git config --get commit.template [6ms]
+2024-09-28 06:51:59.683 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-28 06:51:59.683 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:51:59.696 [info] > git status -z -uall [9ms]
+2024-09-28 06:51:59.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-09-28 06:51:59.726 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:52:04.734 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:52:04.740 [info] > git config --get commit.template [7ms]
+2024-09-28 06:52:04.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-28 06:52:04.741 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:52:04.756 [info] > git status -z -uall [10ms]
+2024-09-28 06:52:04.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-09-28 06:52:04.788 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:52:09.804 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:52:09.804 [info] > git config --get commit.template [6ms]
+2024-09-28 06:52:09.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-28 06:52:09.805 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:52:09.821 [info] > git status -z -uall [11ms]
+2024-09-28 06:52:09.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2024-09-28 06:52:09.862 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:52:26.659 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:52:26.663 [info] > git config --get commit.template [5ms]
+2024-09-28 06:52:26.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-28 06:52:26.664 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:52:26.675 [info] > git status -z -uall [7ms]
+2024-09-28 06:52:26.719 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2024-09-28 06:52:26.719 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:52:31.737 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-28 06:52:31.738 [info] > git config --get commit.template [6ms]
+2024-09-28 06:52:31.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-09-28 06:52:31.749 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:52:31.769 [info] > git status -z -uall [8ms]
+2024-09-28 06:52:31.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2024-09-28 06:52:31.805 [warning] [Git][getBranch] No such branch: main
+2024-09-28 06:53:00.173 [info] > git add -A -- . [2707ms]
+2024-09-28 06:53:00.645 [info] > git show --textconv :.git/COMMIT_EDITMSG [7ms]
+2024-09-28 06:53:00.646 [info] > git ls-files --stage -- /mnt/ditlhake/ticket++_ng/.git/COMMIT_EDITMSG [2ms]
+2024-09-28 06:53:00.976 [info] > git check-ignore -v -z --stdin [5ms]
+2024-09-28 06:53:01.475 [info] > git ls-files --stage -- /mnt/ditlhake/ticket++_ng/.git/COMMIT_EDITMSG [5ms]
+2024-09-28 06:53:01.494 [info] > git show --textconv :.git/COMMIT_EDITMSG [5ms]
+2024-09-28 06:53:39.994 [info] > git check-ignore -v -z --stdin [7ms]
+2024-09-28 06:55:24.037 [info] > git add -A -- . [35ms]
+2024-09-28 06:55:25.289 [info] > git ls-files --stage -- /mnt/ditlhake/ticket++_ng/.git/COMMIT_EDITMSG [1ms]
+2024-09-28 06:55:25.296 [info] > git show --textconv :.git/COMMIT_EDITMSG [2ms]
+2024-09-28 06:55:51.874 [info] > git show --textconv HEAD:login/css/bootstrap/mixins/.DS_Store [5ms]
+2024-09-28 06:55:51.876 [info] > git ls-tree -l HEAD -- /mnt/ditlhake/ticket++_ng/login/css/bootstrap/mixins/.DS_Store [2ms]
+2024-09-28 06:55:51.876 [info] fatal: Not a valid object name HEAD
+2024-09-28 06:55:51.908 [info] > git ls-tree -l HEAD -- /mnt/ditlhake/ticket++_ng/login/css/bootstrap/mixins/.DS_Store [1ms]
+2024-09-28 06:55:51.908 [info] fatal: Not a valid object name HEAD
+2024-09-28 06:55:52.394 [info] > git check-ignore -v -z --stdin [6ms]
+2024-09-28 06:55:55.504 [info] > git show --textconv HEAD:login/css/style.css [6ms]
+2024-09-28 06:55:55.506 [info] > git ls-tree -l HEAD -- /mnt/ditlhake/ticket++_ng/login/css/style.css [2ms]
+2024-09-28 06:55:55.506 [info] fatal: Not a valid object name HEAD
+2024-09-28 06:56:00.511 [info] > git show --textconv HEAD:login/css/owl.carousel.min.css [5ms]
+2024-09-28 06:56:00.513 [info] > git ls-tree -l HEAD -- /mnt/ditlhake/ticket++_ng/login/css/owl.carousel.min.css [2ms]
+2024-09-28 06:56:00.513 [info] fatal: Not a valid object name HEAD
+2024-09-28 06:56:07.830 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-28 06:56:13.704 [info] > git check-ignore -v -z --stdin [8ms]
+2024-09-28 06:56:16.114 [info] > git show --textconv :main/index.html [7ms]
+2024-09-28 06:56:16.116 [info] > git ls-files --stage -- /mnt/ditlhake/ticket++_ng/main/index.html [2ms]
+2024-09-28 06:56:16.120 [info] > git cat-file -s da7e5923e285260f469a39d1bf9e7409a58f02cc [1ms]
+2024-09-28 06:56:23.055 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-28 06:56:26.314 [info] > git check-ignore -v -z --stdin [7ms]
+2024-09-28 06:56:31.779 [info] > git check-ignore -v -z --stdin [11ms]
+2024-09-28 06:56:42.818 [info] > git check-ignore -v -z --stdin [7ms]
+2024-09-28 06:57:05.711 [info] > git check-ignore -v -z --stdin [10ms]
+2024-09-28 06:57:07.362 [info] > git check-ignore -v -z --stdin [7ms]
+2024-09-28 06:57:21.917 [info] > git check-ignore -v -z --stdin [11ms]

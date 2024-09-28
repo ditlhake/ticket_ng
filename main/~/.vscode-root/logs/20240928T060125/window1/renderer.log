@@ -1,0 +1,32 @@
+2024-09-28 06:01:27.129 [info] Started local extension host with pid 16570.
+2024-09-28 06:01:27.205 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2024-09-28 06:01:27.424 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2024-09-28 06:01:30.400 [info] [perf] Render performance baseline is 55ms
+2024-09-28 06:02:09.078 [info] Started local extension host with pid 16736.
+2024-09-28 06:02:11.807 [info] [perf] Render performance baseline is 48ms
+2024-09-28 06:06:43.868 [error] TreeError [FileExplorer] Data tree node not found: ExplorerItem: t1mainstyle.css: Error: TreeError [FileExplorer] Data tree node not found: ExplorerItem: t1mainstyle.css
+    at le.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:629:20661)
+    at le.getNode (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:629:18188)
+    at d.Fe [as value] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:753:70891)
+    at l.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:100:732)
+    at l.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:100:949)
+    at d.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:95:52321)
+    at l.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:100:732)
+    at l.C (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:100:802)
+    at l.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:100:1018)
+    at f.t (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:187:27483)
+    at f.splice (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:187:25598)
+    at L.l (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:187:34140)
+    at L.setChildren (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:187:33684)
+    at b.i (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:187:39884)
+    at b.setChildren (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:187:39289)
+    at c.setChildren (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:187:43073)
+    at g.setChildren (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:629:9313)
+    at le.J (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:629:23716)
+    at le.J (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:629:27523)
+    at le.C (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:629:20783)
+    at async le.A (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:629:17746)
+    at async le.updateChildren (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:629:17491)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1882:54169
+    at async Promise.all (index 0)
+    at async l.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1882:54054)

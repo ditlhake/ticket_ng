@@ -1,0 +1,47 @@
+                time class event-cal
+                float: left;
+                padding: 0 0.8em 0.8em;
+                margin-right: 0.5em;
+                width: 2em;
+                text-align: center;
+                line-height: 130%;
+                font-family: ubuntu, "Helvetica Neue", Verdana, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "ＭＳ ゴシック", "Kozuka Gothic Pr6N", Osaka, "MS PGothic", sans-serif;
+                font-weight: bold;
+                color: rgb(99, 99, 99);
+                border-right: 1px solid rgb(211, 211, 213);
+                
+                div class event-thumb_detail
+                margin-right: 0.8em;
+                padding-left: 4.6em;
+                box-sizing: border-box;
+                padding-left: 4em;
+                line-height: 130%;
+                
+                    time class datetime
+                    font-size: .8em;
+                    display: block;
+                    font-weight: bold;
+                    color: #636363;
+                
+                    span class event-thumb_location
+                    display: block;
+                    font-size: .8em;
+                    color: rgba(90,93,88,.6);
+                
+                    event-thumb_name {
+                    color: #333;
+                    font-size: 1em;
+                    font-weight: normal;
+                    line-height: 150%;
+                    overflow: hidden;
+                    height: 45px;
+                    font-size: 1em;
+                
+                        h3 {
+                        display: block;
+                        font-size: 1.17em;
+                        margin-block-start: 1em;
+                        margin-block-end: 1em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                        font-weight: bold;
